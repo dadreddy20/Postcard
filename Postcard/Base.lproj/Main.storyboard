@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="86" width="215" height="60"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f67-BV-YLi">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="154" width="215" height="52"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="wPS-nd-ldj"/>
                                 <exclude reference="gAW-48-lOS"/>
                                 <exclude reference="IpH-S8-COc"/>
+                                <exclude reference="f67-BV-YLi"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="wPS-nd-ldj"/>
                                 <include reference="gAW-48-lOS"/>
                                 <include reference="IpH-S8-COc"/>
+                                <include reference="f67-BV-YLi"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,9 +140,10 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="enterMessageTextField" destination="acG-hM-Q0X" id="P9j-rN-Kf6"/>
-                        <outlet property="enterNameTextFiled" destination="wPS-nd-ldj" id="sMj-tD-l70"/>
+                        <outlet property="enterNameTextField" destination="wPS-nd-ldj" id="Rk2-1G-Jpb"/>
                         <outlet property="mailButton" destination="gAW-48-lOS" id="Mla-l0-mkj"/>
                         <outlet property="messageLabel" destination="IpH-S8-COc" id="Xo1-Bv-9gZ"/>
+                        <outlet property="nameLabel" destination="f67-BV-YLi" id="rfg-2B-j7y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
